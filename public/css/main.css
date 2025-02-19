@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+header {
+    background-color: crimson;
+    width: 100svw;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+header li {
+    list-style: none;
+    padding-inline: 1.5rem;
+    border-inline: 1px solid black;
+}
+
+header a {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header li.active a {
+    color: gold;
+}
+
+main {
+    padding: 4rem;
+    min-height: 100svh;
+    background-color: rgb(255, 246, 192);
+}

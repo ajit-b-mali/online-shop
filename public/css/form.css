@@ -1,0 +1,57 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 1rem 2rem;
+}
+
+input,
+textarea {
+    padding: 4px 16px;
+    background-color: transparent;
+    outline: 1px solid black;
+    border: none;
+    font-size: 20px;
+    color: rgb(88, 88, 88);
+}
+
+textarea {
+    padding: 8px 16px;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid green;
+}
+
+label {
+    padding-left: 1rem;
+}
+
+form button {
+    font-size: 20px;
+    background-color: transparent;
+    max-width: 240px;
+    margin: auto;
+    padding: 4px 16px;
+    border-radius: 4px;
+    transition: all 0.25s ease-out;
+}
+
+form button:hover {
+    color: rgb(255, 246, 192);
+    background-color: black;
+}
+
+form button:active {
+    background-color: transparent;
+    color: black;
+}
